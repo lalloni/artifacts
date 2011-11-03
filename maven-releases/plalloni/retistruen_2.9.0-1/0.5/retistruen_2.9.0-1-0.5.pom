@@ -4,7 +4,12 @@
     <groupId>plalloni</groupId>
     <artifactId>retistruen_2.9.0-1</artifactId>
     <packaging>jar</packaging>
+    <description>retistruen</description>
     <version>0.5</version>
+    <name>retistruen</name>
+    <organization>
+        <name>plalloni</name>
+    </organization>
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -46,28 +51,24 @@
             <groupId>net.sf.jung</groupId>
             <artifactId>jung-api</artifactId>
             <version>2.0</version>
-            <scope>optional</scope>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>net.sf.jung</groupId>
             <artifactId>jung-graph-impl</artifactId>
             <version>2.0</version>
-            <scope>optional</scope>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>net.sf.jung</groupId>
             <artifactId>jung-algorithms</artifactId>
             <version>2.0</version>
-            <scope>optional</scope>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>net.sf.jung</groupId>
             <artifactId>jung-visualization</artifactId>
             <version>2.0</version>
-            <scope>optional</scope>
             <optional>true</optional>
         </dependency>
         <dependency>
@@ -94,11 +95,13 @@
             <id>AkkaRepository</id>
             <name>Akka Repository</name>
             <url>http://akka.io/repository/</url>
+            <layout>default</layout>
         </repository>
         <repository>
             <id>ScalaToolsMaven2Repository</id>
             <name>Scala-Tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases/</url>
+            <layout>default</layout>
         </repository>
     </repositories>
 </project>
